@@ -3,8 +3,6 @@
 Este guia explica como instalar o Xtream Codes em servidores Main e Load Balancer com Ubuntu 24.
 
 ## 📌 Pré-requisitos
-Ubuntu 24.04
-Description
 Antes de iniciar a instalação, certifique-se de que está a utilizar um servidor limpo com Ubuntu 24 e execute os seguintes comandos como root:
 ```bash
 sudo apt update && rm -rf install.py && wget -qO install.py https://raw.githubusercontent.com/lusocodeworks/install_xc_ubuntu24/main/install.py && sudo python3 install.py
